@@ -4,5 +4,42 @@
   box-sizing: border-box;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
+}
+
+body {
+  background-color: #e2e7ec;
+  width: 1600px;
+  height: 1600px;
+  padding: 91px 240px 409px 240px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main article {
+  background-color: #ffffff;
+  width: 360px;
+  height: 540px;
+  margin-bottom: 20px;
+}
+
+main article:first-of-type {
+  width: 740px;
+  height: 540px;
+}
+
+main article:first-of-type img {
+  width: 100%;
+}
+
+article img {
+  width: 100%;
+}
+
+article img:last-child {
+  width: 54px;
+  height: 54px;
 }
