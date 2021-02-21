@@ -66,6 +66,19 @@ main article p {
   text-align: left;
   text-transform: uppercase;
   letter-spacing: 0.33px;
+  position: absolute;
+  margin: 28px 203px 248px 28px;
+}
+
+main article h2 {
+  color: #1d1d1d;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.55px;
+  position: absolute;
+  margin: 62px 26px 149px 27px;
 }
 
 main article img:last-child {
