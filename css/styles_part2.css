@@ -7,3 +7,91 @@
   vertical-align: baseline;
   transition: all 0.1s ease-in;
 }
+
+body {
+  background-color: #fdde7e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 360px;
+  height: 441px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  padding: 36px;
+}
+
+section:nth-child(2) {
+  width: 361px;
+  height: 500px;
+}
+
+@font-face {
+  font-family: Miso;
+  src: url(../font/miso.woff);
+}
+
+section .price {
+  color: #02995b;
+  font-family: Miso;
+  font-size: 70px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+}
+
+section h2 {
+  color: #333333;
+  font-family: Miso;
+  font-size: 56px;
+  font-weight: 400;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+section p:not(.price) {
+  width: 156px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+section svg:last-of-type image {
+  opacity: 1;
+}
+
+section .cup {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Note, We do have some manual margins here due to 3 svgs are not centered against each other */
+
+section .cup svg:nth-child(2) {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+section .cup svg:last-of-type {
+  position: absolute;
+  margin-top: 70px;
+}
+
+section .footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+section .footer p {
+  margin-top: 10px;
+}
