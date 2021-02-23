@@ -44,7 +44,7 @@ section {
   padding: 36px;
 }
 
-section:nth-child(2) {
+section:hover {
   width: 361px;
   height: 500px;
 }
